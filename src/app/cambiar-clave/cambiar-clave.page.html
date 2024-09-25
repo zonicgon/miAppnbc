@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Cambiar Clave</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="cambiar-clave-container">
+    <h2>Cambiar Clave</h2>
+    <form (submit)="cambiarClave()">
+      <ion-item>
+        <ion-label position="floating">Nueva Clave</ion-label>
+        <ion-input type="password" [(ngModel)]="nuevaClave" name="nuevaClave" required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="floating">Confirmar Clave</ion-label>
+        <ion-input type="password" [(ngModel)]="confirmacionClave" name="confirmacionClave" required></ion-input>
+      </ion-item>
+      <ion-button expand="full" type="submit">Cambiar Clave</ion-button>
+      <p *ngIf="mensajeError" style="color: red;">{{ mensajeError }}</p>
+      <p *ngIf="mensajeExito" style="color: green;">{{ mensajeExito }}</p>
+      <ion-button *ngIf="mensajeExito" expand="full" (click)="irAIngreso()">Iniciar Sesión con Nueva Clave</ion-button>
+    </form>
+  </div>
+</ion-content>
+
+<style>
+  .cambiar-clave-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+</style>
