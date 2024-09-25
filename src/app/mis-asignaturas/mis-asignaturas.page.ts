@@ -14,7 +14,7 @@ export class MisAsignaturasPage {
     { nombre: 'Ingles', seccion: 'E' },
     { nombre: 'Arquitectura', seccion: 'F' },
     { nombre: 'Portafolio', seccion: 'G' },
-    // Añade más asignaturas según sea necesario
+    
   ];
 
   constructor() {}

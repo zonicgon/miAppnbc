@@ -4,8 +4,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Asegura que la imagen cubra toda la pantalla */
-  z-index: -1; /* Envía la imagen detrás de otros elementos */
+  object-fit: cover; 
+  z-index: -1;
 }
 
 .login-container {
@@ -14,35 +14,34 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  background-color: transparent; /* Fondo transparente */
-  border-radius: 10px; /* Esquinas redondeadas */
-  max-width: 400px; /* Opcional: Limita el ancho del contenedor */
-  margin: auto; /* Centra el contenedor horizontalmente */
+  background-color: transparent;
+  border-radius: 10px; 
+  max-width: 400px; 
+  margin: auto; 
 }
 
 .logo-container {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centra horizontalmente */
-  margin: 50px 0; /* Espacio arriba y abajo */
+  align-items: center; 
+  margin: 50px 0; 
 }
 
 .logo {
-  width: 240px; /* Ajusta el tamaño según sea necesario */
-  height: auto; /* Mantiene la proporción */
+  width: 240px; 
+  height: auto; 
 }
 
 .logo-container h2 {
-  color: rgba(70, 70, 70, 0); /* Si quieres que el texto no se vea */
+  color: rgba(70, 70, 70, 0);
 }
 
 .login-container h2 {
-  color: rgb(73, 73, 73); /* Color para "Ingreso de Usuario" */
+  color: rgb(73, 73, 73); 
 }
 
 ion-item {
-  --background: rgba(119, 119, 119, 0.247); /* Fondo semi-transparente para los campos de entrada */
- /* Bordes redondeados */
+  --background: rgba(119, 119, 119, 0.247);
 }
 
 

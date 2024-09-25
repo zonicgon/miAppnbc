@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { CambiarClavePage } from '../cambiar-clave/cambiar-clave.page'; // Importa la página de cambiar clave
+import { CambiarClavePage } from '../cambiar-clave/cambiar-clave.page'; 
 
 @Component({
   selector: 'app-ingreso',
@@ -8,15 +8,15 @@ import { CambiarClavePage } from '../cambiar-clave/cambiar-clave.page'; // Impor
   styleUrls: ['./ingreso.page.scss'],
 })
 export class IngresoPage {
-  username: string = ''; // Inicializa con un valor vacío
-  password: string = ''; // Inicializa con un valor vacío
-  errorMessage: string = ''; // Inicializa con un valor vacío
+  username: string = ''; 
+  password: string = ''; 
+  errorMessage: string = ''; 
 
   constructor(private router: Router) {}
 
   login() {
     const validUser = 'profesor zonic';
-    const validPassword = CambiarClavePage.getClaveActual(); // Obtiene la clave actual
+    const validPassword = CambiarClavePage.getClaveActual(); 
 
     if (this.username === validUser && this.password === validPassword) {
       this.router.navigate(['/inicio']);

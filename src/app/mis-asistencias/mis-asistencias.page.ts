@@ -14,7 +14,7 @@ export class MisAsistenciasPage {
     { asignatura: 'Ingles', fecha: '2024-09-22', estado: 'Asistió' },
     { asignatura: 'Arquitectura', fecha: '2024-09-22', estado: 'Asistió' },
     { asignatura: 'Portafolio', fecha: '2024-09-22', estado: 'Asistió' },
-    // Añade más registros de asistencia según sea necesario
+  
   ];
 
   constructor() {}
