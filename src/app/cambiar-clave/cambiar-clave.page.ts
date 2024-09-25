@@ -21,7 +21,7 @@ export class CambiarClavePage {
       this.mensajeError = 'Las claves no coinciden.';
       this.mensajeExito = '';
     } else {
-      CambiarClavePage.claveActual = this.nuevaClave; // Cambia la clave actual
+      CambiarClavePage.claveActual = this.nuevaClave; 
       this.mensajeExito = 'Clave cambiada exitosamente.';
       this.nuevaClave = '';
       this.confirmacionClave = '';
@@ -31,7 +31,7 @@ export class CambiarClavePage {
   }
 
   irAIngreso() {
-    this.router.navigate(['/ingreso']); // Redirige a la página de ingreso
+    this.router.navigate(['/ingreso']); 
   }
 
   static getClaveActual() {

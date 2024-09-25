@@ -15,7 +15,7 @@ export class IngresoPage {
   constructor(private router: Router) {}
 
   login() {
-    const validUser = 'profesor zonic';
+    const validUser = 'Usuario1';
     const validPassword = CambiarClavePage.getClaveActual(); 
 
     if (this.username === validUser && this.password === validPassword) {
