@@ -1,0 +1,7 @@
+{
+  "name": "miAppnbc",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
