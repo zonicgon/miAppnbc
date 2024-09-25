@@ -12,7 +12,7 @@ export class CambiarClavePage {
   mensajeError: string = '';
   mensajeExito: string = '';
   mostrarBotonIngreso: boolean = false; 
-  private static claveActual: string = 'MiClav2'; // Clave actual
+  private static claveActual: string = 'MiClav3'; // Clave actual
 
   constructor(private router: Router) {}
 
